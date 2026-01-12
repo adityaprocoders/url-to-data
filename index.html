@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="card-item">
-        <div class="card-input">
-            <input placeholder="enter url" type="text">
-        </div>
-        <button>Download file</button>
+    <div class="container">
+        <div class="card">
+            <h2>URL to Data Converter</h2>
+            <p>Enter any public URL to download its data</p>
+
+            <input id="urlInput" type="text" placeholder="https://example.com">
+
+            <button id="downloadBtn">Download File</button>
+
+            <span id="status"></span>
         </div>
     </div>
-
-    
     <script src="app.js"></script>
 </body>
+
 </html>
